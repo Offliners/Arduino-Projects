@@ -1,1 +1,1 @@
-# Aruino-Projects
+# Arduino Projects
