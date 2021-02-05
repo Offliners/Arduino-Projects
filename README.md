@@ -1,7 +1,7 @@
 # Arduino Projects
 
 ## Projects
-* [7-Segment Direct Drive](Projects/001.md)
+* [7-Segment Direct Drive](Projects/001/001.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
