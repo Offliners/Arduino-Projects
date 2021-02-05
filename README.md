@@ -1,7 +1,9 @@
 # Arduino Projects
 
 ## IDE
-* [Arduino IDE](https://www.arduino.cc/en/software)
+[Arduino IDE](https://www.arduino.cc/en/software)
+
+Version : `1.8.5`
 
 ## Reference
 * Projects
