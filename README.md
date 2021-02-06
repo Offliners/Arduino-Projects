@@ -2,7 +2,7 @@
 
 ## Projects
 * [7-Segment Direct Drive](Projects/001/001.md)
-* [Variable LED](P)
+* [Variable LED](Projects/002/002.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
