@@ -5,7 +5,7 @@
 ## Circuit Drsign
 
 ## Code
-```arduino
+```C++
 ```
 * [code]
 
