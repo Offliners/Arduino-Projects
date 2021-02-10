@@ -3,7 +3,7 @@
 ## Projects
 * [7-Segment Direct Drive](Projects/001/001.md)
 * [Variable LED](Projects/002/002.md)
-* [Led Chaser](P)
+* [Led Chaser](Projects/003/003.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
