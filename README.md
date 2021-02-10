@@ -1,5 +1,7 @@
 # Arduino Projects
 
+My mini arduino projects
+
 ## Projects
 * [7-Segment Direct Drive](Projects/001/001.md)
 * [Variable LED](Projects/002/002.md)
