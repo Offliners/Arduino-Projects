@@ -4,7 +4,6 @@ const byte clockPin = 4;
 byte index = 0;
 
 const byte LEDs[10] = {
-// abcdefgh
   B01111110,
   B00110000,
   B01101101,
