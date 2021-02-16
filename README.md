@@ -10,6 +10,7 @@ My mini arduino projects
 * [4-Digit 7-Segment Display](Projects/005/005.md)
 * [Shifty](Projects/006/006.md)
 * [Step Motor Control with Serial](Projects/007/007.md)
+* [LED with Joystick](Projects/008/008.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
