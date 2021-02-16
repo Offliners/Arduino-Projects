@@ -19,5 +19,5 @@ My mini arduino projects
 * Projects
   * https://leap.tardate.com/
   
-* Circuit Design
-  * https://www.tinkercad.com/
+* Circuit Design - fritzing
+  * https://fritzing.org/
