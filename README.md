@@ -8,6 +8,7 @@ My mini arduino projects
 * [Led Chaser](Projects/003/003.md)
 * [7-Segment with Shift Register](Projects/004/004.md)
 * [4-Digit 7-Segment Display](Projects/005/005.md)
+* [Shifty](P)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
