@@ -10,8 +10,8 @@ void setup(){
 void loop(){
   stepper.run();
 
-  while ( Serial.available() > 0 && stepper.stepsToGo() == 0 ) {
-
+  while ( Serial.available() > 0 && stepper.stepsToGo() == 0 ) 
+  {
     int stepPos = Serial.parseInt();
 
     if (Serial.read() == '\n') {
