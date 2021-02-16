@@ -9,7 +9,7 @@ My mini arduino projects
 * [7-Segment with Shift Register](Projects/004/004.md)
 * [4-Digit 7-Segment Display](Projects/005/005.md)
 * [Shifty](Projects/006/006.md)
-* [Step Motor Control with Serial](P)
+* [Step Motor Control with Serial](Projects/007/007.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
