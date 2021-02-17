@@ -11,6 +11,7 @@ My mini arduino projects
 * [Shifty](Projects/006/006.md)
 * [Step Motor Control with Serial](Projects/007/007.md)
 * [LED with Joystick](Projects/008/008.md)
+* [Stepper Motor Control with Joystick](Projects/009/009.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
