@@ -12,6 +12,7 @@ My mini arduino projects
 * [Stepper Motor Control with Serial](Projects/007/007.md)
 * [LED with Joystick](Projects/008/008.md)
 * [Stepper Motor Control with Joystick](Projects/009/009.md)
+* [MFRC522 RFID Reader](Projects/010/010.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
