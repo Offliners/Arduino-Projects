@@ -13,6 +13,7 @@ My mini arduino projects
 * [LED with Joystick](Projects/008/008.md)
 * [Stepper Motor Control with Joystick](Projects/009/009.md)
 * [MFRC522 RFID Reader](Projects/010/010.md)
+* [4-Digit 7-Segment with Shift Register](Projects/011/011.md)
 
 ## IDE
 * [Arduino IDE](https://www.arduino.cc/en/software)
