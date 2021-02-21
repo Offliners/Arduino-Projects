@@ -1,0 +1,57 @@
+const byte dataPin = 2;
+const byte latchPin = 3;
+const byte clockPin = 4;
+const byte Digits[4] = {11, 10, 9, 8};
+long index = 0;
+const int x = 100;
+const int del = 1;
+
+const byte LEDs[10] = {
+  B0000001,  // 0
+  B1001111,  // 1
+  B0010010,  // 2
+  B0000110,  // 3
+  B1001100,  // 4
+  B0100100,  // 5
+  B0100000,  // 6
+  B0001111,  // 7
+  B0000000,  // 8
+  B0001100   // 9
+};
+
+void setup() {
+  pinMode(dataPin, OUTPUT);
+  pinMode(latchPin, OUTPUT);
+  pinMode(clockPin, OUTPUT);
+
+  for(byte i = 0; i < 4; i++)
+  {
+    pinMode(Digits[i], OUTPUT);
+    digitalWrite(Digits[i], LOW);
+  }
+}
+
+void loop() {
+  for(byte i = 0; i < 4; i++)
+    display(i, (index / x / (int)pow(10, i)) % 10);
+  
+  index++;
+  if(index / x > 9999)
+    index = 0;
+}
+
+void display(byte d, int number) {
+  clear();
+  
+  digitalWrite(Digits[d], HIGH);  
+  digitalWrite(latchPin, LOW);
+  shiftOut(dataPin, clockPin, LSBFIRST, LEDs[number]);
+  digitalWrite(latchPin, HIGH);
+  digitalWrite(Digits[d], LOW);
+  delay(del);
+}
+
+void clear() {
+  for(byte i = 0; i < 4; i++)
+    digitalWrite(Digits[i], LOW);
+}
